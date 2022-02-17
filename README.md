@@ -139,33 +139,33 @@ $ git log -p     // -p 可看到檔案更詳細的變更內容
 
   
 
-### pull實作：
-從另一個main brunch push東西上去
-![](https://i.imgur.com/aLjMgvR.png)
-更新後可以從另一個brunch pull東西下來
-![](https://i.imgur.com/DiUq2bB.png)
+### pull實作：  
+從另一個main brunch push東西上去  
+![](https://i.imgur.com/aLjMgvR.png)  
+更新後可以從另一個brunch pull東西下來  
+![](https://i.imgur.com/DiUq2bB.png)  
 
-### pull-request實作
-將修改好的檔案用命令$ git add .暫存，在使用指令$ git commit -m "檔案修改"將檔案傳到本機儲存庫，在使用$ git push將檔案發佈到GitHub的儲存庫
-![image alt](https://i.imgur.com/WDBZEaG.png "push")
-接下來就能在GitHub上看到上傳的檔案及訊息
-![image alt](https://i.imgur.com/GBKzC57.png "")
-點擊Pull requests在點擊New pull requests
-![image alt](https://i.imgur.com/H0GVkGu.png "")
-確定修改內容及發送對象，沒問題按下create pull requests
-![image alt](https://i.imgur.com/rcvRmXy.png "修改及發送")
-title是commit訊息，也可在下方輸入要告訴原作者的訊息，沒問題按下下方的create pull requests
-![image alt](https://i.imgur.com/PyM97wH.png "title")
-就能看到成功上傳了
-![image alt](https://i.imgur.com/v6Vme0X.png "title")
-原作者會收到pull requests訊息，就可以查看別人做了哪些事情
-![image alt](https://i.imgur.com/VwPyJWn.png "")
-沒問題就可以點下merge pull requests
-![image alt](https://i.imgur.com/vLve8eC.png "title")
-確定沒問題就可以點下confirm merge
-![image alt](https://i.imgur.com/Vxf82jy.png "")
-可以看到原本綠色的open變成紫色的merged
-![image alt](https://i.imgur.com/fp8VpGp.png "title")
+### pull-request實作  
+將修改好的檔案用命令$ git add .暫存，在使用指令$ git commit -m "檔案修改"將檔案傳到本機儲存庫，在使用$ git push將檔案發佈到GitHub的儲存庫  
+![image alt](https://i.imgur.com/WDBZEaG.png "push")  
+接下來就能在GitHub上看到上傳的檔案及訊息  
+![image alt](https://i.imgur.com/GBKzC57.png "")  
+點擊Pull requests在點擊New pull requests  
+![image alt](https://i.imgur.com/H0GVkGu.png "")  
+確定修改內容及發送對象，沒問題按下create pull requests  
+![image alt](https://i.imgur.com/rcvRmXy.png "修改及發送")  
+title是commit訊息，也可在下方輸入要告訴原作者的訊息，沒問題按下下方的create pull requests  
+![image alt](https://i.imgur.com/PyM97wH.png "title")  
+就能看到成功上傳了  
+![image alt](https://i.imgur.com/v6Vme0X.png "title")  
+原作者會收到pull requests訊息，就可以查看別人做了哪些事情  
+![image alt](https://i.imgur.com/VwPyJWn.png "")  
+沒問題就可以點下merge pull requests  
+![image alt](https://i.imgur.com/vLve8eC.png "title")  
+確定沒問題就可以點下confirm merge  
+![image alt](https://i.imgur.com/Vxf82jy.png "")  
+可以看到原本綠色的open變成紫色的merged  
+![image alt](https://i.imgur.com/fp8VpGp.png "title")  
 
 # GitFlow 介紹
 一個開發團隊可能有好幾個branch，但每個人對於分支的認知不同，造成每次commit到不同分支，大家也不知道合併要回到誰，若是都合併到master，一定會出大問題，故有了GitFlow去規範使用者。
